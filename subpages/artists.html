@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>88rising Merch - Official 88NIGHTMARKET Online Store</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="shortcut icon" href="../images/icon.png" type="image/png" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="../style/style.css" />
+    <link rel="stylesheet" href="../style/newArrival.css" />
+    <style>
+      .na_banner {
+        background-image: url("../images/artists/banner.jpg");
+      }
+      .na_banner h2 {
+        top: 98px;
+        left: 40px;
+        position: absolute;
+        z-index: 10;
+        pointer-events: none;
+        font-size: 12px;
+        margin: 0;
+        line-height: 22px;
+        color: #fff;
+        font-weight: bold;
+        letter-spacing: 1px;
+      }
+    </style>
+    <script>
+      function closeCookies() {
+        document.getElementById("cookies").style.display = "none";
+      }
+      function closeSubscribe() {
+        document.getElementById("subscribe").style.display = "none";
+      }
+      function emailSubscribe() {
+        var x = document.getElementById("subscribe-input");
+        if (x && x.value) {
+          document.getElementById("emailSubscribe").style.display = "block";
+          document.getElementById("email-warning").style.display = "none";
+        } else {
+          document.getElementById("email-warning").style.display = "block";
+          document.getElementById("emailSubscribe").style.display = "none";
+        }
+      }
+      function footerSubscribe() {
+        var x = document.getElementById("footer-input");
+        if (x && x.value) {
+          document.getElementById("footerSubscribe").style.display = "block";
+          document.getElementById("footer-warning").style.display = "none";
+        } else {
+          document.getElementById("footer-warning").style.display = "block";
+          document.getElementById("footerSubscribe").style.display = "none";
+        }
+      }
+      $(document).ready(function () {
+        $(".img1").mouseover(function () {
+          $(".hover1").css("opacity", "1");
+          $(".hover1").css("visibility", "visible");
+        });
+        $(".img1").mouseout(function () {
+          $(".hover1").css("opacity", "0");
+          $(".hover1").css("visibility", "hidden");
+        });
+      });
+      $(document).ready(function () {
+        $(".img2").mouseover(function () {
+          $(".hover2").css("opacity", "1");
+          $(".hover2").css("visibility", "visible");
+          $(".size2").css("display", "inline-block");
+          $(".price2").css("opacity", "0");
+        });
+        $(".img2").mouseout(function () {
+          $(".hover2").css("opacity", "0");
+          $(".hover2").css("visibility", "hidden");
+          $(".size2").css("display", "none");
+          $(".price2").css("opacity", "1");
+        });
+      });
+      $(document).ready(function () {
+        $(".img3").mouseover(function () {
+          $(".hover3").css("opacity", "1");
+          $(".hover3").css("visibility", "visible");
+          $(".size3").css("display", "inline-block");
+          $(".price3").css("opacity", "0");
+        });
+        $(".img3").mouseout(function () {
+          $(".hover3").css("opacity", "0");
+          $(".hover3").css("visibility", "hidden");
+          $(".size3").css("display", "none");
+          $(".price3").css("opacity", "1");
+        });
+      });
+      $(document).ready(function () {
+        $(".img4").mouseover(function () {
+          $(".hover4").css("opacity", "1");
+          $(".hover4").css("visibility", "visible");
+        });
+        $(".img4").mouseout(function () {
+          $(".hover4").css("opacity", "0");
+          $(".hover4").css("visibility", "hidden");
+        });
+      });
+      $(document).ready(function () {
+        $(".img5").mouseover(function () {
+          $(".hover5").css("opacity", "1");
+          $(".hover5").css("visibility", "visible");
+        });
+        $(".img5").mouseout(function () {
+          $(".hover5").css("opacity", "0");
+          $(".hover5").css("visibility", "hidden");
+        });
+      });
+      $(document).ready(function () {
+        $(".img6").mouseover(function () {
+          $(".hover6").css("opacity", "1");
+          $(".hover6").css("visibility", "visible");
+          $(".size6").css("display", "inline-block");
+          $(".price6").css("opacity", "0");
+        });
+        $(".img6").mouseout(function () {
+          $(".hover6").css("opacity", "0");
+          $(".hover6").css("visibility", "hidden");
+          $(".size6").css("display", "none");
+          $(".price6").css("opacity", "1");
+        });
+      });
+      $(document).ready(function () {
+        $(".img7").mouseover(function () {
+          $(".hover7").css("opacity", "1");
+          $(".hover7").css("visibility", "visible");
+          $(".size7").css("display", "inline-block");
+          $(".price7").css("opacity", "0");
+        });
+        $(".img7").mouseout(function () {
+          $(".hover7").css("opacity", "0");
+          $(".hover7").css("visibility", "hidden");
+          $(".size7").css("display", "none");
+          $(".price7").css("opacity", "1");
+        });
+      });
+      $(document).ready(function () {
+        $(".img8").mouseover(function () {
+          $(".hover8").css("opacity", "1");
+          $(".hover8").css("visibility", "visible");
+        });
+        $(".img8").mouseout(function () {
+          $(".hover8").css("opacity", "0");
+          $(".hover8").css("visibility", "hidden");
+        });
+      });
+      $(document).ready(function () {
+        $(".img9").mouseover(function () {
+          $(".hover9").css("opacity", "1");
+          $(".hover9").css("visibility", "visible");
+        });
+        $(".img9").mouseout(function () {
+          $(".hover9").css("opacity", "0");
+          $(".hover9").css("visibility", "hidden");
+        });
+      });
+      $(document).ready(function () {
+        $(".img10").mouseover(function () {
+          $(".hover10").css("opacity", "1");
+          $(".hover10").css("visibility", "visible");
+          $(".size10").css("display", "inline-block");
+          $(".price10").css("opacity", "0");
+        });
+        $(".img10").mouseout(function () {
+          $(".hover10").css("opacity", "0");
+          $(".hover10").css("visibility", "hidden");
+          $(".size10").css("display", "none");
+          $(".price10").css("opacity", "1");
+        });
+      });
+      $(document).ready(function () {
+        $(".img11").mouseover(function () {
+          $(".hover11").css("opacity", "1");
+          $(".hover11").css("visibility", "visible");
+          $(".size11").css("display", "inline-block");
+          $(".price11").css("opacity", "0");
+        });
+        $(".img11").mouseout(function () {
+          $(".hover11").css("opacity", "0");
+          $(".hover11").css("visibility", "hidden");
+          $(".size11").css("display", "none");
+          $(".price11").css("opacity", "1");
+        });
+      });
+      $(document).ready(function () {
+        $("#search-btn").click(function () {
+          $("#search").css("display", "block");
+        });
+        $("#search-close").click(function () {
+          $("#search").css("display", "none");
+        });
+      });
+      $(document).ready(function () {
+        $("#cart-btn").click(function () {
+          $(".cart").css("display", "block");
+        });
+        $(".cart-close").click(function () {
+          $(".cart").css("display", "none");
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <div class="container-fluid text-center text-white sticky-top" id="up-nav">Enjoy free shipping on orders of $75 or more!</div>
+    <nav class="navbar navbar-expand-md navbar-light py-2 px-0 sticky-top">
+      <div class="container-fluid" id="nav">
+        <a href="../index.html" class="navbar-brand"><img src="../images/logo.png" alt="logo" width="100%" height="50%" /></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav">
+            <li class="nav-item px-2">
+              <a class="nav-link" href="newArrivals.html">NEW ARRIVALS</a>
+            </li>
+            <li class="nav-item dropdown px-2">
+              <a class="nav-link dropdown-toggle" href="shop.html">SHOP</a>
+              <div class="dropdown-menu border-0" style="border-radius: 0">
+                <a class="dropdown-header">CATEGORIES</a>
+                <a href="shop.html" class="dropdown-item pl-25">TOPS</a>
+                <a href="shop.html" class="dropdown-item pl-25">BOTTOMS</a>
+                <a href="shop.html" class="dropdown-item pl-25">HOODIES</a>
+                <a href="shop.html" class="dropdown-item pl-25">OUTERWEAR</a>
+                <a href="shop.html" class="dropdown-item pl-25">ACCESSORIES</a>
+                <a class="dropdown-header">COLLECTIONS</a>
+                <a href="shop.html" class="dropdown-item pl-25">NEON DRAGON</a>
+                <a href="shop.html" class="dropdown-item pl-25">ESSENTIALS</a>
+                <a href="shop.html" class="dropdown-item pl-25">88RISING X VANDY</a>
+                <a href="shop.html" class="dropdown-item pl-25">RETRO HEAT</a>
+                <a href="shop.html" class="dropdown-item pl-25">88 WORLD CORP</a>
+                <a href="shop.html" class="dropdown-item pl-25">88RISING x DANDY FARMER</a>
+                <a href="shop.html" class="dropdown-item pl-25">GUE88 LUNAR NEW YEAR</a>
+                <a href="shop.html" class="dropdown-item pl-25">88RISING CORE</a>
+                <a href="shop.html" class="dropdown-item pl-25">88RISING X SORAYAMA</a>
+                <a href="shop.html" class="dropdown-item pl-25">88RISING x SANKUANZ</a>
+                <a href="shop.html" class="dropdown-item pl-25">GUE88 RISING</a>
+                <a href="shop.html" class="dropdown-item pl-25">HEAD IN THE CLOUDS II</a>
+                <a href="shop.html" class="dropdown-item pl-25">HOT ONES</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown px-2">
+              <a class="nav-link dropdown-toggle" href="artists.html">ARTISTS</a>
+              <div class="dropdown-menu border-0" style="border-radius: 0">
+                <a href="artists.html" class="dropdown-header">RICH BRIAN</a>
+                <a href="artists.html" class="dropdown-header">MASIWEI "PRINCE CHARMING"</a>
+                <a href="artists.html" class="dropdown-header">KEITH APE</a>
+                <a href="artists.html" class="dropdown-header">JOJI</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown px-2">
+              <a class="nav-link dropdown-toggle" href="lookbooks.html">LOOKBOOKS</a>
+              <div class="dropdown-menu border-0" style="border-radius: 0">
+                <a href="lookbooks.html" class="dropdown-header">NEON DRAGON</a>
+                <a href="lookbooks.html" class="dropdown-header">F/W ESSENTIALS CAMPAIGN</a>
+                <a href="lookbooks.html" class="dropdown-header">FLEXLAB CHENGDU: 88NIGHTMARKET POP-UP</a>
+                <a href="lookbooks.html" class="dropdown-header">JOHNNIE WALKER X JOJI</a>
+                <a href="lookbooks.html" class="dropdown-header">88RISING X VANDY</a>
+                <a href="lookbooks.html" class="dropdown-header">BOBA GUYS</a>
+                <a href="lookbooks.html" class="dropdown-header">POPULAR JEWELRY X HIGHER BROTHERS</a>
+                <a href="lookbooks.html" class="dropdown-header">LOST BALLADS: JOJI X GUESS</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown px-2">
+              <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">GLOBAL SHOP</a>
+              <div class="dropdown-menu border-0" style="border-radius: 0">
+                <a href="https://shop496508538.world.taobao.com/" class="dropdown-header">TAOBAO</a>
+                <a href="https://www.blibli.com/anchor/88nightmarket" class="dropdown-header">BLIBLI</a>
+              </div>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link" href="sale.html">SALE</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link" href="about.html">ABOUT</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item px-2" id="search-btn">
+              <span class="fa fa-search"></span>
+            </li>
+            <li class="nav-item px-2">
+              <a href="login.html" style="font-size: inherit"><span class="fa fa-user-plus"></span></a>
+            </li>
+            <li class="nav-item px-2" id="cart-btn">
+              <span class="fa fa-shopping-cart"></span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluid text-center text-black sticky-top" id="search" style="top: 95px">
+      <input type="text" placeholder="SEARCH" class="footer-input ml-4" id="footer-input" style="color: black !important; border-color: black !important" />
+      <span class="fa fa-search" id="foot-arrow" onclick="footerSubscribe()" style="color: black !important"></span>
+      <span class="fa fa-close" id="search-close"></span>
+    </div>
+    <div class="cart">
+      <div class="cart-header">
+        <h1>SHOPPING BAG</h1>
+        <span class="fa fa-close cart-close"></span>
+      </div>
+      <div class="cart-item-wrap">
+        <div class="cart-item">
+          <div class="cart-item-image">
+            <img src="../images/newArrivals/1.jpg" width="134px" height="145px" />
+          </div>
+          <div class="cart-item-info">
+            <p class="cart-item-name">88RISING BLACK BEANIE</p>
+            <p class="cart-item-name">$28</p>
+          </div>
+        </div>
+      </div>
+      <div class="cart-footer">
+        <h1 style="width: 100%">SUBTOTAL <span class="float-right">$28</span></h1>
+        <p class="ml-3">Shipping & taxes calculated at checkout</p>
+        <a href="shop.html" class="btn" id="cart-check">PROCEED TO CHECKOUT</a>
+      </div>
+    </div>
+    <div class="container-fluid na_banner">
+      <h1>RICH BRIAN</h1>
+      <h2>OFFICIAL RICH BRIAN MERCH</h2>
+    </div>
+    <div class="container-fluid na_content px-0">
+      <div class="container-fluid na_sort">
+        <label for="na_sort_btn">SORT BY</label>
+        <button class="btn dropdown-toggle" type="button" data-toggle="dropdown" id="na_sort_btn">Featured <span class="fa fa-angle-down ml-5"></span></button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Best selling</a>
+          <a class="dropdown-item" href="#">Featured</a>
+          <a class="dropdown-item" href="#">Price, low to high</a>
+          <a class="dropdown-item" href="#">Price, high to low</a>
+          <a class="dropdown-item" href="#">Alphabetically, A-Z</a>
+          <a class="dropdown-item" href="#">Alphabetically, Z-A</a>
+          <a class="dropdown-item" href="#">Date, new to old</a>
+          <a class="dropdown-item" href="#">Date, old to new</a>
+        </div>
+      </div>
+      <div class="container-fluid na_shop">
+        <div class="na_filter">
+          <div class="na_filter_menu">
+            <div class="filter_bot">
+              <h4>Categories</h4>
+              <div class="filter_bot_pick">
+                <p><span class="fa fa-circle-thin"></span> TEES <span class="float-right">(4)</span></p>
+                <p><span class="fa fa-circle-thin"></span> TOPS <span class="float-right">(44)</span></p>
+                <p><span class="fa fa-circle-thin"></span> BOTTOMS <span class="float-right">(12)</span></p>
+                <p><span class="fa fa-circle-thin"></span> HOODIES <span class="float-right">(19)</span></p>
+                <p><span class="fa fa-circle-thin"></span> OUTERWEAR <span class="float-right">(6)</span></p>
+                <p><span class="fa fa-circle-thin"></span> ACCESSORIES <span class="float-right">(15)</span></p>
+              </div>
+            </div>
+            <div class="filter_top">
+              <h4>Collections</h4>
+              <div class="filter_top_pick">
+                <p style="font-weight: bold"><span class="fa fa-dot-circle-o"></span> RICH BRIAN</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="na_item">
+          <div class="na_item_list">
+            <a href="item.html"
+              ><div class="item_img img1">
+                <span id="main_img">
+                  <img src="../images/artists/1.webp" class="main_img" />
+                </span>
+                <span id="hover_img">
+                  <img src="../images/artists/1.webp" class="hover_img hover1" />
+                </span></div
+            ></a>
+
+            <div class="item_info">
+              <h1 class="item_name">"THE SAILOR" VINYL 2XLP</h1>
+              <p class="item_price mt-3">$40.00</p>
+              <span class="sold_out">SOLD OUT</span>
+            </div>
+          </div>
+          <div class="na_item_list">
+            <a href="item.html"
+              ><div class="item_img img2">
+                <span id="main_img">
+                  <img src="../images/artists/2.webp" class="main_img" />
+                </span>
+                <span id="hover_img">
+                  <img src="../images/artists/2h.webp" class="hover_img hover2" />
+                </span></div
+            ></a>
+
+            <div class="item_info">
+              <h1 class="item_name">YELLOW SKETCH LYRICS TEE IN YELLOW</h1>
+              <span class="sale">SALE</span>
+              <p class="item_price price2 mt-3 mb-0"><span class="line-through">$24.95</span> <span class="sale_price">$19.96</span> <span class="sale_letter">Sale</span></p>
+              <span class="item_size size2">S</span><span class="item_size size2">M</span><span class="item_size size2">L</span>
+            </div>
+          </div>
+          <div class="na_item_list">
+            <a href="item.html"
+              ><div class="item_img img3">
+                <span id="main_img">
+                  <img src="../images/artists/3.webp" class="main_img" />
+                </span>
+                <span id="hover_img">
+                  <img src="../images/artists/3h.webp" class="hover_img hover3" />
+                </span></div
+            ></a>
+
+            <div class="item_info">
+              <h1 class="item_name">YELLOW SKETCH TEE IN BLACK</h1>
+              <span class="sale">SALE</span>
+              <p class="item_price price3 mt-3 mb-0"><span class="line-through">$24.95</span> <span class="sale_price">$19.96</span> <span class="sale_letter">Sale</span></p>
+              <span class="item_size size3">2XL</span>
+            </div>
+          </div>
+          <div class="na_item_list">
+            <a href="item.html"
+              ><div class="item_img img4">
+                <span id="main_img">
+                  <img src="../images/artists/4.jpg" class="main_img" />
+                </span>
+                <span id="hover_img">
+                  <img src="../images/artists/4.jpg" class="hover_img hover4" />
+                </span></div
+            ></a>
+
+            <div class="item_info">
+              <h1 class="item_name">YELLOW SINGLE ART WHEATPASTE POSTER</h1>
+              <span class="sale">SALE</span>
+              <p class="item_price price4 mt-3 mb-0"><span class="line-through">$12.00</span></p>
+              <span class="sold_out">SOLD OUT</span>
+            </div>
+          </div>
+          <div class="na_item_list">
+            <a href="item.html"
+              ><div class="item_img img5">
+                <span id="main_img">
+                  <img src="../images/artists/5.png" class="main_img" />
+                </span>
+                <span id="hover_img">
+                  <img src="../images/artists/5h.png" class="hover_img hover5" />
+                </span></div
+            ></a>
+
+            <div class="item_info">
+              <h1 class="item_name">YELLOW SKETCH HOODIE IN BLACK</h1>
+              <span class="sale">SALE</span>
+              <p class="item_price price5 mt-3 mb-0"><span class="line-through">$44.95</span></p>
+              <span class="item_size size5">S</span><span class="item_size size5">M</span><span class="item_size size5">L</span><span class="item_size size5">XL</span
+              ><span class="item_size size5">2XL</span>
+              <span class="sold_out">SOLD OUT</span>
+            </div>
+          </div>
+          <div class="na_item_list">
+            <a href="item.html"
+              ><div class="item_img img6">
+                <span id="main_img">
+                  <img src="../images/artists/6.png" class="main_img" />
+                </span>
+                <span id="hover_img">
+                  <img src="../images/artists/6h.png" class="hover_img hover6" />
+                </span></div
+            ></a>
+
+            <div class="item_info">
+              <h1 class="item_name">YELLOW COVER ART TEE IN PASTEL YELLOW</h1>
+              <span class="sale">SALE</span>
+              <p class="item_price price6 mt-3 mb-0"><span class="line-through">$24.95</span> <span class="sale_price">$19.96</span> <span class="sale_letter">Sale</span></p>
+              <span class="item_size size6">S</span><span class="item_size size6">M</span><span class="item_size size6">L</span><span class="item_size size6">XL</span
+              ><span class="item_size size6">2XL</span>
+            </div>
+          </div>
+          <div class="na_item_list">
+            <a href="item.html"
+              ><div class="item_img img7">
+                <span id="main_img">
+                  <img src="../images/artists/7.png" class="main_img" />
+                </span>
+                <span id="hover_img">
+                  <img src="../images/artists/7h.png" class="hover_img hover7" />
+                </span></div
+            ></a>
+
+            <div class="item_info">
+              <h1 class="item_name">YELLOW COVER ART TEE IN WHITE</h1>
+              <span class="sale">SALE</span>
+              <p class="item_price price7 mt-3 mb-0"><span class="line-through">$24.95</span> <span class="sale_price">$19.96</span> <span class="sale_letter">Sale</span></p>
+              <span class="item_size size7">S</span><span class="item_size size7">M</span><span class="item_size size7">L</span><span class="item_size size7">XL</span
+              ><span class="item_size size7">2XL</span>
+            </div>
+          </div>
+          <div class="na_item_list">
+            <a href="item.html"
+              ><div class="item_img img8">
+                <span id="main_img">
+                  <img src="../images/artists/8.png" class="main_img" />
+                </span>
+                <span id="hover_img">
+                  <img src="../images/artists/8.png" class="hover_img hover8" />
+                </span></div
+            ></a>
+
+            <div class="item_info">
+              <h1 class="item_name">YELLOW TEE IN PASTEL YELLOW</h1>
+              <span class="sale">SALE</span>
+              <p class="item_price price8 mt-3 mb-0"><span class="line-through">$24.95</span></p>
+              <span class="sold_out">SOLD OUT</span>
+            </div>
+          </div>
+          <div class="na_item_list">
+            <a href="item.html"
+              ><div class="item_img img9">
+                <span id="main_img">
+                  <img src="../images/artists/9.png" class="main_img" />
+                </span>
+                <span id="hover_img">
+                  <img src="../images/artists/9h.png" class="hover_img hover9" />
+                </span></div
+            ></a>
+
+            <div class="item_info">
+              <h1 class="item_name">"THE SAILOR" OPEN YOUR EYES TEE</h1>
+              <p class="item_price price9 mt-3 mb-0"><span class="line-through">$24.95</span> <span class="sale_price">$19.96</span> <span class="sale_letter">Sale</span></p>
+            </div>
+          </div>
+          <div class="na_item_list">
+            <a href="item.html"
+              ><div class="item_img img10">
+                <span id="main_img">
+                  <img src="../images/artists/10.png" class="main_img" />
+                </span>
+                <span id="hover_img">
+                  <img src="../images/artists/10h.png" class="hover_img hover10" />
+                </span></div
+            ></a>
+
+            <div class="item_info">
+              <h1 class="item_name">"THE SAILOR" RICH BRIAN TEE</h1>
+              <span class="sale">SALE</span>
+              <p class="item_price price10 mt-3 mb-0"><span class="line-through">$24.95</span> <span class="sale_price">$19.96</span> <span class="sale_letter">Sale</span></p>
+              <span class="item_size size10">S</span><span class="item_size size10">M</span><span class="item_size size10">L</span><span class="item_size size10">XL</span
+              ><span class="item_size size10">2XL</span>
+            </div>
+          </div>
+          <div class="na_item_list">
+            <a href="item.html"
+              ><div class="item_img img11">
+                <span id="main_img">
+                  <img src="../images/artists/11.png" class="main_img" />
+                </span>
+                <span id="hover_img">
+                  <img src="../images/artists/11h.png" class="hover_img hover11" />
+                </span></div
+            ></a>
+
+            <div class="item_info">
+              <h1 class="item_name">"THE SAILOR" FAMILY PORTRAIT TEE</h1>
+              <span class="sale">SALE</span>
+              <p class="item_price price11 mt-3 mb-0"><span class="line-through">$24.95</span> <span class="sale_price">$19.96</span> <span class="sale_letter">Sale</span></p>
+              <span class="item_size size11">S</span><span class="item_size size11">XL</span><span class="item_size size11">2XL</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="container-fluid mt-5">
+        <div class="row text-center">
+          <div class="col-12 my-5">
+            <! -- Copied Footer icon (Icon nay khong download duoc tren web goc nen em copy doan code cua icon nay) -->
+            <a href="#"
+              ><svg width="42px" height="51px" viewBox="0 0 42 51" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                  <g id="Home-1440" transform="translate(-699.000000, -3180.000000)" fill="#FFFFFE">
+                    <g id="Group" transform="translate(699.000000, 3180.000000)">
+                      <polyline id="Fill-15" points="27.18744 45 25.31244 46.875 14.06244 46.875 14.06244 50.625 27.18744 50.625 27.18744 45"></polyline>
+                      <polyline id="Fill-16" points="14.06244 5.625 15.93744 3.75 27.18744 3.75 27.18744 0 14.06244 0 14.06244 5.625"></polyline>
+                      <path
+                        d="M21.71256,27.675 C21.01884,27.675 20.45628,28.23744 20.45628,28.93128 C20.45628,29.625 21.01884,30.18744 21.71256,30.18744 C22.425,30.18744 22.98744,29.625 22.96872,28.93128 C22.96872,28.23744 22.40628,27.675 21.71256,27.675"
+                        id="Fill-17"
+                      ></path>
+                      <path
+                        d="M21.71256,20.43744 C21.01872,20.43744 20.45628,21 20.45628,21.69372 C20.45628,22.38744 21.01884,22.95 21.71256,22.95 C22.40628,22.95 22.96872,22.38744 22.96872,21.69372 C22.96872,21 22.40628,20.43744 21.71256,20.43744"
+                        id="Fill-18"
+                      ></path>
+                      <path
+                        d="M11.1,20.43744 C10.38756,20.43744 9.825,21 9.84372,21.69372 C9.84372,22.38744 10.40628,22.95 11.1,22.95 C11.79372,22.95 12.35628,22.38744 12.35628,21.69372 C12.35628,21 11.79372,20.43744 11.1,20.43744"
+                        id="Fill-19"
+                      ></path>
+                      <path
+                        d="M11.1,27.675 C10.40628,27.675 9.84372,28.23744 9.84372,28.93128 C9.84372,29.625 10.40628,30.18744 11.1,30.18744 C11.79384,30.18744 12.35628,29.625 12.35628,28.93128 C12.35628,28.23744 11.79372,27.675 11.1,27.675"
+                        id="Fill-20"
+                      ></path>
+                      <path
+                        d="M36.16884,25.25628 L33.71256,25.25628 C33.6,25.25628 33.50628,25.35 33.50628,25.46244 L33.50628,32.04372 C33.50628,32.36244 33.24384,32.60628 32.94384,32.60628 L30.61884,32.60628 C30.3,32.60628 30.05628,32.34372 30.05628,32.04372 L30.05628,25.46244 C30.05628,25.35 29.96256,25.25628 29.85,25.25628 L27.43128,25.25628 C27.05628,25.25628 26.83128,24.825 27.05628,24.525 L31.40628,18.80628 C31.59372,18.54372 31.96872,18.54372 32.15628,18.80628 L36.50628,24.525 C36.73128,24.825 36.525,25.25628 36.16884,25.25628 Z M26.775,28.93128 C26.775,31.725 24.50628,33.99372 21.71244,33.99372 C18.91872,33.99372 16.65,31.725 16.65,28.93128 C16.65,27.50628 17.23128,26.23128 18.16872,25.31244 C17.23128,24.39372 16.65,23.11872 16.65,21.69372 C16.65,18.9 18.91872,16.63128 21.71244,16.63128 C24.50628,16.63128 26.775,18.9 26.775,21.69372 C26.775,23.11872 26.19372,24.39372 25.25628,25.31244 C26.19372,26.23128 26.775,27.50628 26.775,28.93128 Z M16.14372,28.93128 C16.14372,31.725 13.875,33.99372 11.08128,33.99372 C8.28756,33.99372 6.01872,31.725 6.01872,28.93128 C6.01872,27.50628 6.6,26.23128 7.53744,25.31244 C6.6,24.39372 6.01872,23.11872 6.01872,21.69372 C6.01872,18.9 8.28756,16.63128 11.08128,16.63128 C13.875,16.63128 16.14372,18.9 16.14372,21.69372 C16.14372,23.11872 15.56244,24.39372 14.625,25.31244 C15.56244,26.23128 16.14372,27.50628 16.14372,28.93128 Z M35.19372,10.725 C32.75628,8.28744 30,6.58128 26.96244,5.625 L14.26872,5.625 C11.21244,6.58128 8.475,8.28744 6.03744,10.725 C2.00628,14.75628 -2.84217094e-14,19.61244 -2.84217094e-14,25.31244 C-2.84217094e-14,31.01244 2.00628,35.86872 6.03744,39.9 C8.475,42.33744 11.23128,44.04372 14.28744,45 L26.96244,45 C30.01872,44.04372 32.75628,42.33744 35.19372,39.9 C39.225,35.86872 41.23128,31.01244 41.23128,25.31244 C41.23128,19.61244 39.20628,14.75628 35.19372,10.725 L35.19372,10.725 Z"
+                        id="Fill-21"
+                      ></path>
+                    </g>
+                  </g>
+                </g></svg
+            ></a>
+          </div>
+          <div class="col-12 row justify-content-between">
+            <div class="col-md-4 col-xs-12 spacing-fix">
+              <h3 class="foot-title">88NIGHTMARKET</h3>
+              <a href="#" class="foot-link">PRIVACY POLICY</a> <br />
+              <a href="#" class="foot-link">TERMS AND CONDITIONS</a> <br />
+              <a href="#" class="foot-link">FAQ</a> <br />
+              <a href="#" class="foot-link">DO NOT SELL MY PERSONAL INFORMATION</a> <br />
+              <a href="#" class="foot-link">RETURNS AND EXCHANGES</a>
+            </div>
+            <div class="col-md-4 col-xs-12 spacing-fix foot-xs">
+              <h3 class="foot-title ml-4">STAY IN THE KNOW</h3>
+              <input type="text" placeholder="YOUR EMAIL" class="footer-input ml-4" id="footer-input" />
+              <span class="fa fa-arrow-right" id="foot-arrow" onclick="footerSubscribe()"></span>
+              <p class="text-success ml-4" id="footerSubscribe">Thanks for subscribing! Check your email for a confirmation message.</p>
+              <p class="text-danger ml-4" id="footer-warning">Invalid email address!</p>
+            </div>
+            <div class="col-md-4 col-xs-12 spacing-fix foot-xs">
+              <h3 class="foot-title">HELP</h3>
+              <a href="#" class="foot-link">CUSTOMER SERVICE</a> <br />
+              <a href="#" class="foot-link">CONTACT US</a>
+            </div>
+          </div>
+          <div class="col-12 spacing-fix text-white foot-xs">
+            <span class="fa fa-facebook mx-2"></span>
+            <span class="fa fa-twitter mx-2"></span>
+            <span class="fa fa-instagram mx-2"></span>
+            <span class="fa fa-pinterest mx-2"></span> <br />
+            <p class="copyright">Copyright &copy; 2019 88NIGHTMARKET</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

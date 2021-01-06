@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>88rising Merch - Official 88NIGHTMARKET Online Store</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="shortcut icon" href="images/icon.png" type="image/png" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style/style.css" />
+    <script>
+      function closeCookies() {
+        document.getElementById("cookies").style.display = "none";
+      }
+      function closeSubscribe() {
+        document.getElementById("subscribe").style.display = "none";
+      }
+      function emailSubscribe() {
+        var x = document.getElementById("subscribe-input");
+        if (x && x.value) {
+          document.getElementById("emailSubscribe").style.display = "block";
+          document.getElementById("email-warning").style.display = "none";
+        } else {
+          document.getElementById("email-warning").style.display = "block";
+          document.getElementById("emailSubscribe").style.display = "none";
+        }
+      }
+      function footerSubscribe() {
+        var x = document.getElementById("footer-input");
+        if (x && x.value) {
+          document.getElementById("footerSubscribe").style.display = "block";
+          document.getElementById("footer-warning").style.display = "none";
+        } else {
+          document.getElementById("footer-warning").style.display = "block";
+          document.getElementById("footerSubscribe").style.display = "none";
+        }
+      }
+      $(document).ready(function () {
+        $("#search-btn").click(function () {
+          $("#search").css("display", "block");
+        });
+        $("#search-close").click(function () {
+          $("#search").css("display", "none");
+        });
+      });
+      $(document).ready(function () {
+        $("#cart-btn").click(function () {
+          $(".cart").css("display", "block");
+        });
+        $(".cart-close").click(function () {
+          $(".cart").css("display", "none");
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <div class="container-fluid text-center text-white sticky-top" id="up-nav">Enjoy free shipping on orders of $75 or more!</div>
+    <nav class="navbar navbar-expand-xl navbar-light py-2 px-0 sticky-top">
+      <div class="container-fluid" id="nav">
+        <a href="index.html" class="navbar-brand"><img src="images/logo.png" alt="logo" width="100%" height="50%" /></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav">
+            <li class="nav-item px-2">
+              <a class="nav-link" href="subpages/newArrivals.html">NEW ARRIVALS</a>
+            </li>
+            <li class="nav-item dropdown px-2">
+              <a class="nav-link dropdown-toggle" href="subpages/shop.html">SHOP</a>
+              <div class="dropdown-menu border-0" style="border-radius: 0">
+                <a class="dropdown-header">CATEGORIES</a>
+                <a href="subpages/shop.html" class="dropdown-item pl-25">TOPS</a>
+                <a href="subpages/shop.html" class="dropdown-item pl-25">BOTTOMS</a>
+                <a href="subpages/shop.html" class="dropdown-item pl-25">HOODIES</a>
+                <a href="subpages/shop.html" class="dropdown-item pl-25">OUTERWEAR</a>
+                <a href="subpages/shop.html" class="dropdown-item pl-25">ACCESSORIES</a>
+                <a class="dropdown-header">COLLECTIONS</a>
+                <a href="subpages/shop.html" class="dropdown-item pl-25">NEON DRAGON</a>
+                <a href="subpages/shop.html" class="dropdown-item pl-25">ESSENTIALS</a>
+                <a href="subpages/shop.html" class="dropdown-item pl-25">88RISING X VANDY</a>
+                <a href="subpages/shop.html" class="dropdown-item pl-25">RETRO HEAT</a>
+                <a href="subpages/shop.html" class="dropdown-item pl-25">88 WORLD CORP</a>
+                <a href="subpages/shop.html" class="dropdown-item pl-25">88RISING x DANDY FARMER</a>
+                <a href="subpages/shop.html" class="dropdown-item pl-25">GUE88 LUNAR NEW YEAR</a>
+                <a href="subpages/shop.html" class="dropdown-item pl-25">88RISING CORE</a>
+                <a href="subpages/shop.html" class="dropdown-item pl-25">88RISING X SORAYAMA</a>
+                <a href="subpages/shop.html" class="dropdown-item pl-25">88RISING x SANKUANZ</a>
+                <a href="subpages/shop.html" class="dropdown-item pl-25">GUE88 RISING</a>
+                <a href="subpages/shop.html" class="dropdown-item pl-25">HEAD IN THE CLOUDS II</a>
+                <a href="subpages/shop.html" class="dropdown-item pl-25">HOT ONES</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown px-2">
+              <a class="nav-link dropdown-toggle" href="subpages/artists.html">ARTISTS</a>
+              <div class="dropdown-menu border-0" style="border-radius: 0">
+                <a href="subpages/artists.html" class="dropdown-header">RICH BRIAN</a>
+                <a href="subpages/artists.html" class="dropdown-header">MASIWEI "PRINCE CHARMING"</a>
+                <a href="subpages/artists.html" class="dropdown-header">KEITH APE</a>
+                <a href="subpages/artists.html" class="dropdown-header">JOJI</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown px-2">
+              <a class="nav-link dropdown-toggle" href="subpages/lookbooks.html">LOOKBOOKS</a>
+              <div class="dropdown-menu border-0" style="border-radius: 0">
+                <a href="subpages/lookbooks.html" class="dropdown-header">NEON DRAGON</a>
+                <a href="subpages/lookbooks.html" class="dropdown-header">F/W ESSENTIALS CAMPAIGN</a>
+                <a href="subpages/lookbooks.html" class="dropdown-header">FLEXLAB CHENGDU: 88NIGHTMARKET POP-UP</a>
+                <a href="subpages/lookbooks.html" class="dropdown-header">JOHNNIE WALKER X JOJI</a>
+                <a href="subpages/lookbooks.html" class="dropdown-header">88RISING X VANDY</a>
+                <a href="subpages/lookbooks.html" class="dropdown-header">BOBA GUYS</a>
+                <a href="subpages/lookbooks.html" class="dropdown-header">POPULAR JEWELRY X HIGHER BROTHERS</a>
+                <a href="subpages/lookbooks.html" class="dropdown-header">LOST BALLADS: JOJI X GUESS</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown px-2">
+              <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">GLOBAL SHOP</a>
+              <div class="dropdown-menu border-0" style="border-radius: 0">
+                <a href="https://shop496508538.world.taobao.com/" class="dropdown-header">TAOBAO</a>
+                <a href="https://www.blibli.com/anchor/88nightmarket" class="dropdown-header">BLIBLI</a>
+              </div>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link" href="subpages/sale.html">SALE</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link" href="subpages/about.html">ABOUT</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item px-2" id="search-btn">
+              <span class="fa fa-search"></span>
+            </li>
+            <li class="nav-item px-2">
+              <a href="subpages/login.html" style="font-size: inherit"><span class="fa fa-user-plus"></span></a>
+            </li>
+            <li class="nav-item px-2" id="cart-btn">
+              <span class="fa fa-shopping-cart"></span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluid text-center text-black sticky-top" id="search" style="top: 95px">
+      <input type="text" placeholder="SEARCH" class="footer-input ml-4" id="footer-input" style="color: black !important; border-color: black !important" />
+      <span class="fa fa-search" id="foot-arrow" onclick="footerSubscribe()" style="color: black !important"></span>
+      <span class="fa fa-close" id="search-close"></span>
+    </div>
+    <div class="cart">
+      <div class="cart-header">
+        <h1>SHOPPING BAG</h1>
+        <span class="fa fa-close cart-close"></span>
+      </div>
+      <div class="cart-item-wrap">
+        <div class="cart-item">
+          <div class="cart-item-image">
+            <img src="images/newArrivals/1.jpg" width="134px" height="145px" />
+          </div>
+          <div class="cart-item-info">
+            <p class="cart-item-name">88RISING BLACK BEANIE</p>
+            <p class="cart-item-name">$28</p>
+          </div>
+        </div>
+      </div>
+      <div class="cart-footer">
+        <h1 style="width: 100%">SUBTOTAL <span class="float-right">$28</span></h1>
+        <p class="ml-3">Shipping & taxes calculated at checkout</p>
+        <a href="subpages/shop.html" class="btn" id="cart-check">PROCEED TO CHECKOUT</a>
+      </div>
+    </div>
+    <div class="container-fluid" id="content">
+      <div class="banner container-fluid text-center mb-5">
+        <a href="subpages/shop.html" class="btn" id="banner-btn">SHOP ALL</a>
+      </div>
+      <div class="banner1 container-fluid text-center mb-5">
+        <a href="subpages/sale.html" class="btn" id="banner-btn">SHOP GUE88 SALE</a>
+      </div>
+      <div class="row mx-0 d-flex justify-content-between" id="sec1">
+        <div class="col-6 sec1-height-width mb-5" id="sec1-1">
+          <div class="bg1"></div>
+          <h1>NEON DRAGON</h1>
+          <a href="subpages/lookbooks.html" class="btn sec1-btn">DISCOVER</a>
+        </div>
+        <div class="col-6 sec1-height-width" id="sec1-2">
+          <div class="bg2"></div>
+          <h1>F/W ESSENTIALS CAMPAIGN</h1>
+          <a href="subpages/lookbooks.html" class="btn sec1-btn">DISCOVER</a>
+        </div>
+        <div class="col-6 sec1-height-width mb-5" id="sec1-3">
+          <div class="bg3"></div>
+          <h1>FLEXLAB CHENGDU: 88NIGHTMARKET POP-UP</h1>
+          <a href="subpages/lookbooks.html" class="btn sec1-btn">DISCOVER</a>
+        </div>
+        <div class="col-6 sec1-height-width" id="sec1-4">
+          <div class="bg4"></div>
+          <h1>JOHNNIE WALKER X JOJI</h1>
+          <a href="subpages/lookbooks.html" class="btn sec1-btn">DISCOVER</a>
+        </div>
+        <div class="col-6 sec1-height-width" id="sec1-5">
+          <div class="bg5"></div>
+          <h1>88RISING X VANDY</h1>
+          <a href="subpages/lookbooks.html" class="btn sec1-btn">DISCOVER</a>
+        </div>
+        <div class="col-6 sec1-height-width mb-5" id="sec1-6">
+          <div class="bg6"></div>
+          <h1>BOBA GUYS</h1>
+          <a href="subpages/lookbooks.html" class="btn sec1-btn">DISCOVER</a>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="container-fluid mt-5">
+        <div class="row text-center">
+          <div class="col-12 my-5">
+            <! -- Copied Footer icon (Icon nay khong download duoc tren web goc) -->
+            <a href="#"
+              ><svg width="42px" height="51px" viewBox="0 0 42 51" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                  <g id="Home-1440" transform="translate(-699.000000, -3180.000000)" fill="#FFFFFE">
+                    <g id="Group" transform="translate(699.000000, 3180.000000)">
+                      <polyline id="Fill-15" points="27.18744 45 25.31244 46.875 14.06244 46.875 14.06244 50.625 27.18744 50.625 27.18744 45"></polyline>
+                      <polyline id="Fill-16" points="14.06244 5.625 15.93744 3.75 27.18744 3.75 27.18744 0 14.06244 0 14.06244 5.625"></polyline>
+                      <path
+                        d="M21.71256,27.675 C21.01884,27.675 20.45628,28.23744 20.45628,28.93128 C20.45628,29.625 21.01884,30.18744 21.71256,30.18744 C22.425,30.18744 22.98744,29.625 22.96872,28.93128 C22.96872,28.23744 22.40628,27.675 21.71256,27.675"
+                        id="Fill-17"
+                      ></path>
+                      <path
+                        d="M21.71256,20.43744 C21.01872,20.43744 20.45628,21 20.45628,21.69372 C20.45628,22.38744 21.01884,22.95 21.71256,22.95 C22.40628,22.95 22.96872,22.38744 22.96872,21.69372 C22.96872,21 22.40628,20.43744 21.71256,20.43744"
+                        id="Fill-18"
+                      ></path>
+                      <path
+                        d="M11.1,20.43744 C10.38756,20.43744 9.825,21 9.84372,21.69372 C9.84372,22.38744 10.40628,22.95 11.1,22.95 C11.79372,22.95 12.35628,22.38744 12.35628,21.69372 C12.35628,21 11.79372,20.43744 11.1,20.43744"
+                        id="Fill-19"
+                      ></path>
+                      <path
+                        d="M11.1,27.675 C10.40628,27.675 9.84372,28.23744 9.84372,28.93128 C9.84372,29.625 10.40628,30.18744 11.1,30.18744 C11.79384,30.18744 12.35628,29.625 12.35628,28.93128 C12.35628,28.23744 11.79372,27.675 11.1,27.675"
+                        id="Fill-20"
+                      ></path>
+                      <path
+                        d="M36.16884,25.25628 L33.71256,25.25628 C33.6,25.25628 33.50628,25.35 33.50628,25.46244 L33.50628,32.04372 C33.50628,32.36244 33.24384,32.60628 32.94384,32.60628 L30.61884,32.60628 C30.3,32.60628 30.05628,32.34372 30.05628,32.04372 L30.05628,25.46244 C30.05628,25.35 29.96256,25.25628 29.85,25.25628 L27.43128,25.25628 C27.05628,25.25628 26.83128,24.825 27.05628,24.525 L31.40628,18.80628 C31.59372,18.54372 31.96872,18.54372 32.15628,18.80628 L36.50628,24.525 C36.73128,24.825 36.525,25.25628 36.16884,25.25628 Z M26.775,28.93128 C26.775,31.725 24.50628,33.99372 21.71244,33.99372 C18.91872,33.99372 16.65,31.725 16.65,28.93128 C16.65,27.50628 17.23128,26.23128 18.16872,25.31244 C17.23128,24.39372 16.65,23.11872 16.65,21.69372 C16.65,18.9 18.91872,16.63128 21.71244,16.63128 C24.50628,16.63128 26.775,18.9 26.775,21.69372 C26.775,23.11872 26.19372,24.39372 25.25628,25.31244 C26.19372,26.23128 26.775,27.50628 26.775,28.93128 Z M16.14372,28.93128 C16.14372,31.725 13.875,33.99372 11.08128,33.99372 C8.28756,33.99372 6.01872,31.725 6.01872,28.93128 C6.01872,27.50628 6.6,26.23128 7.53744,25.31244 C6.6,24.39372 6.01872,23.11872 6.01872,21.69372 C6.01872,18.9 8.28756,16.63128 11.08128,16.63128 C13.875,16.63128 16.14372,18.9 16.14372,21.69372 C16.14372,23.11872 15.56244,24.39372 14.625,25.31244 C15.56244,26.23128 16.14372,27.50628 16.14372,28.93128 Z M35.19372,10.725 C32.75628,8.28744 30,6.58128 26.96244,5.625 L14.26872,5.625 C11.21244,6.58128 8.475,8.28744 6.03744,10.725 C2.00628,14.75628 -2.84217094e-14,19.61244 -2.84217094e-14,25.31244 C-2.84217094e-14,31.01244 2.00628,35.86872 6.03744,39.9 C8.475,42.33744 11.23128,44.04372 14.28744,45 L26.96244,45 C30.01872,44.04372 32.75628,42.33744 35.19372,39.9 C39.225,35.86872 41.23128,31.01244 41.23128,25.31244 C41.23128,19.61244 39.20628,14.75628 35.19372,10.725 L35.19372,10.725 Z"
+                        id="Fill-21"
+                      ></path>
+                    </g>
+                  </g>
+                </g></svg
+            ></a>
+          </div>
+          <div class="col-12 row justify-content-between">
+            <div class="col-md-4 col-xs-12 spacing-fix">
+              <h3 class="foot-title">88NIGHTMARKET</h3>
+              <a href="#" class="foot-link">PRIVACY POLICY</a> <br />
+              <a href="#" class="foot-link">TERMS AND CONDITIONS</a> <br />
+              <a href="#" class="foot-link">FAQ</a> <br />
+              <a href="#" class="foot-link">DO NOT SELL MY PERSONAL INFORMATION</a> <br />
+              <a href="#" class="foot-link">RETURNS AND EXCHANGES</a>
+            </div>
+            <div class="col-md-4 col-xs-12 spacing-fix foot-xs">
+              <h3 class="foot-title ml-4">STAY IN THE KNOW</h3>
+              <input type="text" placeholder="YOUR EMAIL" class="footer-input ml-4" id="footer-input" />
+              <span class="fa fa-arrow-right" id="foot-arrow" onclick="footerSubscribe()"></span>
+              <p class="text-success ml-4" id="footerSubscribe">Thanks for subscribing! Check your email for a confirmation message.</p>
+              <p class="text-danger ml-4" id="footer-warning">Invalid email address!</p>
+            </div>
+            <div class="col-md-4 col-xs-12 spacing-fix foot-xs">
+              <h3 class="foot-title">HELP</h3>
+              <a href="#" class="foot-link">CUSTOMER SERVICE</a> <br />
+              <a href="#" class="foot-link">CONTACT US</a>
+            </div>
+          </div>
+          <div class="col-12 spacing-fix text-white foot-xs">
+            <span class="fa fa-facebook mx-2"></span>
+            <span class="fa fa-twitter mx-2"></span>
+            <span class="fa fa-instagram mx-2"></span>
+            <span class="fa fa-pinterest mx-2"></span> <br />
+            <p class="copyright">Copyright &copy; 2019 88NIGHTMARKET</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="subscribe" id="subscribe">
+      <div class="subscribe-content">
+        <a href="#" class="subscribe-close" onclick="closeSubscribe()"><span class="fa fa-close"></span></a>
+        <div class="subscribe-body">
+          <div class="subscribe-col subscribe-bg"></div>
+          <div class="subscribe-col">
+            <div class="subscribe-info">
+              <span class="subscribe-title">Welcome to 88NIGHTMARKET</span>
+              <h2>SIGN UP FOR FUTURE DROPS</h2>
+              <p>Sign up for emails updates on all new product releases!</p>
+              <input type="text" placeholder="YOUR EMAIL" class="subscribe-input" id="subscribe-input" /> <a href="#"><span class="fa fa-arrow-right" id="arrow" onclick="emailSubscribe()"></span></a>
+              <p class="text-success" id="emailSubscribe">Thanks for subscribing! Check your email for a confirmation message.</p>
+              <p class="text-danger" id="email-warning">Invalid email address!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="cookies" id="cookies">
+      <div class="cookies-content">
+        <div class="cookies-text">
+          <p>
+            This site uses cookies to remember some of your preferences and to help us improve the site. Cookies are small text files that are download on your computer or device. By Continuing to use
+            this site you agree to our use of cookies. You can find out more by reading our privacy policy.
+          </p>
+        </div>
+        <a href="#" class="btn cookies-close" onclick="closeCookies()">CONTINUE</a>
+      </div>
+    </div>
+  </body>
+</html>
